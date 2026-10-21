@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title>کلینیک دندانپزشکی مهرگان | رزرو آنلاین نوبت</title>
+  <meta name="description" content="رزرو آنلاین نوبت معاینه، جرم‌گیری، ترمیم و ارتودنسی در کلینیک دندانپزشکی مهرگان. نمونه‌کار شخصی.">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">رفتن به محتوای اصلی</a>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="#top" aria-label="کلینیک دندانپزشکی مهرگان، صفحه اصلی">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M12 6c-5 0-8 4-8 9 0 6 3 9 4 15 .6 3.5 2 6 4 6s2.6-3 3.4-7c.5-2.4 1.4-3.4 4.6-3.4s4.1 1 4.6 3.4c.8 4 1.4 7 3.4 7s3.4-2.5 4-6c1-6 4-9 4-15 0-5-3-9-8-9-3.4 0-5 2-8 2s-4.6-2-8-2z"/>
+        </svg>
+        <span>دندانپزشکی <strong>مهرگان</strong></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-test="nav-toggle">
+        <span class="sr-only">باز کردن منو</span>
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="منوی اصلی" data-test="nav-menu">
+        <a href="#services">خدمات</a>
+        <a href="#process">روند مراجعه</a>
+        <a href="#faq">سؤالات متداول</a>
+        <a href="#contact">تماس</a>
+        <a class="nav-cta" href="#booking">رزرو نوبت</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <h1>نوبت دندانپزشکی را همین حالا ببینید و رزرو کنید</h1>
+          <p class="lead">زمان‌های خالی این هفته را انتخاب کنید؛ پذیرش برای تأیید نوبت با شما تماس می‌گیرد. بدون پشت خط ماندن.</p>
+          <ul class="facts">
+            <li><strong>شنبه تا پنجشنبه</strong><span>۹ صبح تا ۸ شب</span></li>
+            <li><strong>اورژانس دندان</strong><span>پذیرش در همان روز</span></li>
+            <li><strong>بیمه تکمیلی</strong><span>طرف قرارداد با بیمه‌های رایج</span></li>
+          </ul>
+        </div>
+
+        <section class="booking" id="booking" aria-labelledby="booking-title">
+          <div class="booking-head">
+            <h2 id="booking-title">زمان‌های خالی</h2>
+            <span class="booking-hint">یک روز و یک ساعت انتخاب کنید</span>
+          </div>
+
+          <div class="days" role="radiogroup" aria-label="انتخاب روز" id="days"></div>
+          <div class="slots" role="radiogroup" aria-label="انتخاب ساعت" id="slots"></div>
+
+          <div class="booking-foot">
+            <p class="booking-summary" id="booking-summary" aria-live="polite">هنوز زمانی انتخاب نشده است.</p>
+            <button class="btn btn-primary" type="button" id="open-booking" data-test="cta">ادامه رزرو</button>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="services" id="services" aria-labelledby="services-title">
+      <div class="wrap">
+        <h2 id="services-title" class="section-title">خدمات کلینیک</h2>
+        <p class="section-lead">مدت تقریبی هر نوبت را کنار هر خدمت نوشته‌ایم تا برنامه روزتان را راحت‌تر بچینید.</p>
+
+        <ul class="service-list">
+          <li class="service" data-test="card">
+            <h3>معاینه و مشاوره</h3>
+            <p>بررسی کامل دهان و دندان، عکس دیجیتال در صورت نیاز و برنامه درمان مکتوب.</p>
+            <span class="duration">۲۰ دقیقه</span>
+          </li>
+          <li class="service" data-test="card">
+            <h3>جرم‌گیری و بروساژ</h3>
+            <p>پاک‌سازی جرم و رنگ‌دانه‌ها با دستگاه اولتراسونیک و آموزش مسواک‌زدن درست.</p>
+            <span class="duration">۴۵ دقیقه</span>
+          </li>
+          <li class="service" data-test="card">
+            <h3>ترمیم و پر کردن</h3>
+            <p>ترمیم پوسیدگی با کامپوزیت هم‌رنگ دندان در یک جلسه.</p>
+            <span class="duration">۳۰ تا ۶۰ دقیقه</span>
+          </li>
+          <li class="service" data-test="card">
+            <h3>عصب‌کشی</h3>
+            <p>درمان ریشه با دستگاه روتاری و بی‌حسی کامل؛ در بیشتر موارد یک یا دو جلسه.</p>
+            <span class="duration">۶۰ تا ۹۰ دقیقه</span>
+          </li>
+          <li class="service" data-test="card">
+            <h3>ارتودنسی</h3>
+            <p>مشاوره ارتودنسی ثابت و متحرک برای کودکان و بزرگسالان، با برآورد زمان درمان.</p>
+            <span class="duration">جلسه اول ۳۰ دقیقه</span>
+          </li>
+          <li class="service" data-test="card">
+            <h3>دندانپزشکی کودکان</h3>
+            <p>محیط آرام و نوبت‌های کوتاه‌تر برای کودکان، با حضور والدین در اتاق درمان.</p>
+            <span class="duration">۲۰ تا ۳۰ دقیقه</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="process" id="process" aria-labelledby="process-title">
+      <div class="wrap">
+        <h2 id="process-title" class="section-title">روند مراجعه</h2>
+        <ol class="steps">
+          <li><h3>انتخاب زمان</h3><p>زمان خالی را در همین صفحه انتخاب کنید و نام و شماره تماس را بنویسید.</p></li>
+          <li><h3>تماس پذیرش</h3><p>پذیرش در ساعات کاری با شما تماس می‌گیرد و نوبت را تأیید می‌کند.</p></li>
+          <li><h3>یادآوری</h3><p>یک روز قبل از نوبت پیامک یادآوری دریافت می‌کنید.</p></li>
+          <li><h3>معاینه و برنامه درمان</h3><p>بعد از معاینه، برنامه درمان و هزینه تقریبی را مکتوب دریافت می‌کنید.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+      <div class="wrap narrow">
+        <h2 id="faq-title" class="section-title">سؤالات متداول</h2>
+        <details>
+          <summary>برای لغو یا جابه‌جایی نوبت چه کنم؟</summary>
+          <p>تا ۲۴ ساعت قبل از نوبت با شماره پذیرش تماس بگیرید تا زمان جدید برایتان ثبت شود.</p>
+        </details>
+        <details>
+          <summary>آیا برای اورژانس هم باید نوبت بگیرم؟</summary>
+          <p>خیر. در ساعات کاری مستقیم مراجعه کنید یا تماس بگیرید؛ بیماران اورژانسی در همان روز پذیرش می‌شوند.</p>
+        </details>
+        <details>
+          <summary>با کدام بیمه‌ها قرارداد دارید؟</summary>
+          <p>فهرست به‌روز بیمه‌های طرف قرارداد را پذیرش هنگام تأیید نوبت اعلام می‌کند.</p>
+        </details>
+        <details>
+          <summary>آیا عکس رادیولوژی قبلی را همراه بیاورم؟</summary>
+          <p>بله، اگر عکس یک سال اخیر دارید همراه بیاورید تا نیازی به عکس دوباره نباشد.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-grid">
+        <div class="contact-info">
+          <h2 id="contact-title" class="section-title">تماس با کلینیک</h2>
+          <p>سؤالی دارید که اینجا جوابش نیست؟ پیام بگذارید؛ در همان روز کاری پاسخ می‌دهیم.</p>
+          <dl class="contact-list">
+            <dt>نشانی</dt><dd>نشانی نمونه — این کلینیک واقعی نیست</dd>
+            <dt>تلفن پذیرش</dt><dd dir="ltr">021-0000-0000</dd>
+            <dt>ساعات کاری</dt><dd>شنبه تا پنجشنبه، ۹ تا ۲۰</dd>
+          </dl>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">نام و نام خانوادگی</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <p class="error" id="error-name" data-test="error-name" hidden>نام خود را بنویسید.</p>
+          </div>
+          <div class="field">
+            <label for="email">ایمیل</label>
+            <input id="email" name="email" type="email" dir="ltr" autocomplete="email" required>
+            <p class="error" id="error-email" data-test="error-email" hidden>یک ایمیل معتبر بنویسید، مثل name@example.com</p>
+          </div>
+          <div class="field">
+            <label for="message">پیام</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <p class="error" id="error-message" hidden>متن پیام را بنویسید.</p>
+          </div>
+          <button class="btn btn-primary" type="submit" data-test="submit">ارسال پیام</button>
+          <p class="form-status success" data-test="success" hidden role="status">پیام شما ثبت شد. در همان روز کاری پاسخ می‌دهیم.</p>
+          <p class="form-status fail" id="form-fail" hidden role="alert">ارسال انجام نشد. اتصال اینترنت را بررسی کنید و دوباره بفرستید.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>این صفحه یک <strong>نمونه‌کار شخصی</strong> است؛ نام کلینیک، نشانی و شماره‌ها ساختگی‌اند و هیچ اطلاعاتی ارسال یا ذخیره نمی‌شود.</p>
+    </div>
+  </footer>
+
+  <div class="modal" id="booking-modal" data-test="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel">
+      <button class="modal-close" type="button" data-close aria-label="بستن">×</button>
+      <h2 id="modal-title">تکمیل رزرو</h2>
+      <p class="modal-slot" id="modal-slot"></p>
+      <form id="booking-form" novalidate>
+        <div class="field">
+          <label for="b-name">نام و نام خانوادگی</label>
+          <input id="b-name" type="text" autocomplete="name" required>
+          <p class="error" id="error-b-name" hidden>نام خود را بنویسید.</p>
+        </div>
+        <div class="field">
+          <label for="b-phone">شماره موبایل</label>
+          <input id="b-phone" type="tel" dir="ltr" inputmode="numeric" placeholder="09xxxxxxxxx" autocomplete="tel" required>
+          <p class="error" id="error-b-phone" hidden>شماره موبایل ۱۱ رقمی که با ۰۹ شروع می‌شود بنویسید.</p>
+        </div>
+        <button class="btn btn-primary" type="submit">ثبت درخواست نوبت</button>
+        <p class="form-status success" id="booking-done" hidden role="status"></p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

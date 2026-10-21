@@ -1,0 +1,17 @@
+{
+  "name": "bug-fix-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio project: five common front-end bugs reproduced, fixed and proven with Playwright tests",
+  "scripts": {
+    "serve:broken": "http-server broken -p 4173 -c-1",
+    "serve:fixed": "http-server fixed -p 4173 -c-1",
+    "test": "cross-env TARGET=fixed playwright test",
+    "test:broken": "cross-env TARGET=broken playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "cross-env": "^7.0.3",
+    "http-server": "^14.1.1"
+  }
+}
